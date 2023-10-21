@@ -1,0 +1,713 @@
+#onetrust-pc-sdk.ot-fade-in,
+.onetrust-pc-dark-filter.ot-fade-in {
+    animation-duration: 1ms
+}
+
+.onetrust-cookie-policy #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy #cookie-policy-description,
+.onetrust-cookie-policy #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group-desc,
+.onetrust-cookie-policy #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-table-header,
+.onetrust-cookie-policy #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy a,
+.onetrust-cookie-policy #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy span,
+.onetrust-cookie-policy #ot-sdk-cookie-policy-v2.ot-sdk-cookie-policy .ot-sdk-cookie-policy-group {
+    font-size: 16px
+}
+
+#onetrust-pc-sdk .pc-logo-container {
+    padding-left: 30px
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk button {
+    background-color: initial;
+    border-color: initial;
+    color: initial
+}
+
+#onetrust-banner-sdk,
+#onetrust-pc-sdk {
+    padding-top: 24px
+}
+
+#onetrust-banner-sdk .banner-actions-container {
+    display: flex;
+    width: 100%
+}
+
+#onetrust-banner-sdk .banner-actions-container #onetrust-accept-btn-handler,
+#onetrust-banner-sdk #onetrust-pc-btn-handler,
+#onetrust-banner-sdk #onetrust-reject-all-handler {
+    flex: 1;
+    max-width: inherit;
+    width: 100%
+}
+
+#onetrust-banner-sdk #onetrust-close-btn-container {
+    top: 0;
+    margin-top: 0
+}
+
+#onetrust-banner-sdk.otFlat #onetrust-close-btn-container {
+    top: 10px;
+    margin-top: 10px
+}
+
+#onetrust-banner-sdk #onetrust-policy {
+    margin-top: 16px
+}
+
+#onetrust-consent-sdk #policy-title,
+#onetrust-consent-sdk #onetrust-policy-text,
+#onetrust-consent-sdk .ot-b-addl-desc,
+#onetrust-consent-sdk .ot-dpd-desc,
+#onetrust-consent-sdk .ot-dpd-title,
+#onetrust-consent-sdk #onetrust-policy-text *:not(.onetrust-vendors-list-handler),
+#onetrust-consent-sdk .ot-dpd-desc *:not(.onetrust-vendors-list-handler),
+#onetrust-consent-sdk #onetrust-banner-sdk #banner-options *,
+#onetrust-consent-sdk #onetrust-pc-sdk h3,
+#onetrust-consent-sdk #onetrust-pc-sdk h4,
+#onetrust-consent-sdk #onetrust-pc-sdk h5,
+#onetrust-consent-sdk #onetrust-pc-sdk h6,
+#onetrust-consent-sdk #onetrust-pc-sdk p,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-ven-lst .ot-ven-opts p,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-desc,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-title,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-li-title,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-sel-all-hdr span,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-info,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-fltr-modal #modal-header,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-checkbox label span,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-sel-blk p,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-lst-title span,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst .back-btn-handler p,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst .ot-ven-name,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-lst #ot-ven-lst .consent-category,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-inactive-leg-btn,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-label-status,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-chkbox label span,
+#onetrust-consent-sdk #onetrust-pc-sdk #clear-filters-handler {
+    color: var(--text-color)
+}
+
+#onetrust-banner-sdk div,
+#onetrust-banner-sdk span,
+#onetrust-banner-sdk h1,
+#onetrust-banner-sdk h2,
+#onetrust-banner-sdk h3,
+#onetrust-banner-sdk h4,
+#onetrust-banner-sdk h5,
+#onetrust-banner-sdk h6,
+#onetrust-banner-sdk p,
+#onetrust-banner-sdk img,
+#onetrust-banner-sdk svg,
+#onetrust-banner-sdk button,
+#onetrust-banner-sdk section,
+#onetrust-banner-sdk a,
+#onetrust-banner-sdk label,
+#onetrust-banner-sdk input,
+#onetrust-banner-sdk ul,
+#onetrust-banner-sdk li,
+#onetrust-banner-sdk nav,
+#onetrust-banner-sdk table,
+#onetrust-banner-sdk thead,
+#onetrust-banner-sdk tr,
+#onetrust-banner-sdk td,
+#onetrust-banner-sdk tbody,
+#onetrust-banner-sdk .ot-main-content,
+#onetrust-banner-sdk .ot-toggle,
+#onetrust-banner-sdk #ot-content,
+#onetrust-banner-sdk #ot-pc-content,
+#onetrust-banner-sdk .checkbox,
+#onetrust-pc-sdk div,
+#onetrust-pc-sdk span,
+#onetrust-pc-sdk h1,
+#onetrust-pc-sdk h2,
+#onetrust-pc-sdk h3,
+#onetrust-pc-sdk h4,
+#onetrust-pc-sdk h5,
+#onetrust-pc-sdk h6,
+#onetrust-pc-sdk p,
+#onetrust-pc-sdk img,
+#onetrust-pc-sdk svg,
+#onetrust-pc-sdk button,
+#onetrust-pc-sdk section,
+#onetrust-pc-sdk a,
+#onetrust-pc-sdk label,
+#onetrust-pc-sdk input,
+#onetrust-pc-sdk ul,
+#onetrust-pc-sdk li,
+#onetrust-pc-sdk nav,
+#onetrust-pc-sdk table,
+#onetrust-pc-sdk thead,
+#onetrust-pc-sdk tr,
+#onetrust-pc-sdk td,
+#onetrust-pc-sdk tbody,
+#onetrust-pc-sdk .ot-main-content,
+#onetrust-pc-sdk .ot-toggle,
+#onetrust-pc-sdk #ot-content,
+#onetrust-pc-sdk #ot-pc-content,
+#onetrust-pc-sdk .checkbox,
+#ot-sdk-cookie-policy div,
+#ot-sdk-cookie-policy span,
+#ot-sdk-cookie-policy h1,
+#ot-sdk-cookie-policy h2,
+#ot-sdk-cookie-policy h3,
+#ot-sdk-cookie-policy h4,
+#ot-sdk-cookie-policy h5,
+#ot-sdk-cookie-policy h6,
+#ot-sdk-cookie-policy p,
+#ot-sdk-cookie-policy img,
+#ot-sdk-cookie-policy svg,
+#ot-sdk-cookie-policy button,
+#ot-sdk-cookie-policy section,
+#ot-sdk-cookie-policy a,
+#ot-sdk-cookie-policy label,
+#ot-sdk-cookie-policy input,
+#ot-sdk-cookie-policy ul,
+#ot-sdk-cookie-policy li,
+#ot-sdk-cookie-policy nav,
+#ot-sdk-cookie-policy table,
+#ot-sdk-cookie-policy thead,
+#ot-sdk-cookie-policy tr,
+#ot-sdk-cookie-policy td,
+#ot-sdk-cookie-policy tbody,
+#ot-sdk-cookie-policy .ot-main-content,
+#ot-sdk-cookie-policy .ot-toggle,
+#ot-sdk-cookie-policy #ot-content,
+#ot-sdk-cookie-policy #ot-pc-content,
+#ot-sdk-cookie-policy .checkbox,
+#ot-sync-ntfy div,
+#ot-sync-ntfy span,
+#ot-sync-ntfy h1,
+#ot-sync-ntfy h2,
+#ot-sync-ntfy h3,
+#ot-sync-ntfy h4,
+#ot-sync-ntfy h5,
+#ot-sync-ntfy h6,
+#ot-sync-ntfy p,
+#ot-sync-ntfy img,
+#ot-sync-ntfy svg,
+#ot-sync-ntfy button,
+#ot-sync-ntfy section,
+#ot-sync-ntfy a,
+#ot-sync-ntfy label,
+#ot-sync-ntfy input,
+#ot-sync-ntfy ul,
+#ot-sync-ntfy li,
+#ot-sync-ntfy nav,
+#ot-sync-ntfy table,
+#ot-sync-ntfy thead,
+#ot-sync-ntfy tr,
+#ot-sync-ntfy td,
+#ot-sync-ntfy tbody,
+#ot-sync-ntfy .ot-main-content,
+#ot-sync-ntfy .ot-toggle,
+#ot-sync-ntfy #ot-content,
+#ot-sync-ntfy #ot-pc-content,
+#ot-sync-ntfy .checkbox {
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: inherit;
+    font-weight: 400;
+    text-align: center
+}
+
+#onetrust-banner-sdk #onetrust-policy-text,
+#onetrust-banner-sdk .ot-b-addl-desc,
+#onetrust-banner-sdk .ot-gv-list-handler,
+#ot-pc-content #ot-pc-desc {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: .2px
+}
+
+#onetrust-consent-sdk #onetrust-banner-sdk a[href],
+#onetrust-consent-sdk #onetrust-banner-sdk .ot-link-btn,
+#onetrust-consent-sdk #onetrust-pc-sdk .privacy-notice-link,
+#onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler,
+#onetrust-consent-sdk #onetrust-pc-sdk .category-vendors-list-handler+a,
+#onetrust-consent-sdk #onetrust-pc-sdk .category-host-list-handler,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-ven-link,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-name a,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-acc-hdr .ot-host-expand,
+#onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst .ot-host-info a,
+#onetrust-pc-sdk .ot-cat-grp .ot-always-active {
+    color: var(--primary-action-dark);
+    text-decoration: none
+}
+
+#onetrust-consent-sdk #onetrust-pc-btn-handler,
+#onetrust-consent-sdk #onetrust-pc-btn-handler.cookie-setting-link,
+#onetrust-consent-sdk #onetrust-pc-sdk .privacy-notice-link {
+    color: var(--primary-action-dark);
+    border-color: var(--primary-action-dark)
+}
+
+#onetrust-consent-sdk #onetrust-banner-sdk a[href]:hover,
+#onetrust-consent-sdk #onetrust-banner-sdk .ot-link-btn:hover,
+#onetrust-consent-sdk #onetrust-pc-sdk .privacy-notice-link:hover,
+#onetrust-pc-sdk .ot-cat-grp .ot-always-active:hover {
+    color: var(--primary-action-medium)
+}
+
+#onetrust-consent-sdk #onetrust-banner-sdk a[href]:focus,
+#onetrust-consent-sdk #onetrust-banner-sdk .ot-link-btn:focus,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-accordion-layout.ot-cat-item button,
+#onetrust-pc-sdk .ot-tgl input:focus+.ot-switch,
+#onetrust-pc-sdk .ot-sdk-column:focus,
+#onetrust-pc-sdk .privacy-notice-link,
+#onetrust-pc-sdk a:focus,
+#onetrust-pc-sdk #onetrust-pc-sdk button.ot-host-box,
+#onetrust-pc-sdk #filter-btn-handler:focus {
+    outline: 0;
+    opacity: initial
+}
+
+#onetrust-banner-sdk #onetrust-policy-title,
+#ot-pc-content #ot-pc-title {
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 16px;
+    letter-spacing: .2px;
+    text-align: center;
+    width: 100%;
+    padding: initial
+}
+
+#ot-pc-content #ot-pc-title {
+    margin-top: 48px
+}
+
+#onetrust-banner-sdk #onetrust-accept-btn-handler,
+#onetrust-banner-sdk #onetrust-reject-all-handler,
+#onetrust-banner-sdk #onetrust-pc-btn-handler,
+#onetrust-pc-sdk #accept-recommended-btn-handler,
+#onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn),
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-active-leg-btn {
+    background-color: var(--primary-action-bright);
+    color: var(--primary-white);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 0 24px;
+    border-width: var(--border-width);
+    border-color: var(--primary-action-bright);
+    border-radius: var(--border-radius-s);
+    line-height: 24px;
+    padding: 10px;
+    transition: background-color .2s ease, border-color .2s ease, color .2s ease, box-shadow .2s ease;
+    white-space: initial
+}
+
+#onetrust-banner-sdk #onetrust-accept-btn-handler:hover,
+#onetrust-banner-sdk #onetrust-reject-all-handler:hover,
+#onetrust-banner-sdk #onetrust-pc-btn-handler:hover,
+#onetrust-pc-sdk #accept-recommended-btn-handler:hover,
+#onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn):hover,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-active-leg-btn:hover {
+    background-color: var(--hover-primary-action-bright);
+    border-color: var(--primary-action-border-bright);
+    color: var(--primary-action-text-bright);
+    opacity: inherit
+}
+
+#onetrust-banner-sdk #onetrust-accept-btn-handler:focus,
+#onetrust-banner-sdk #onetrust-reject-all-handler:focus,
+#onetrust-banner-sdk #onetrust-pc-btn-handler:focus,
+#onetrust-pc-sdk #accept-recommended-btn-handler:focus,
+#onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn):focus,
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-active-leg-btn:focus {
+    opacity: inherit;
+    outline: 0
+}
+
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-accept-btn-handler:hover,
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-reject-all-handler:hover,
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-pc-btn-handler:hover,
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-accept-btn-handler:focus,
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-reject-all-handler:focus,
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-pc-btn-handler:focus,
+[data-whatinput=keyboard] #onetrust-pc-sdk #accept-recommended-btn-handler:focus,
+[data-whatinput=keyboard] #onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn):focus,
+[data-whatinput=keyboard] #onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-active-leg-btn:focus,
+[data-whatinput=keyboard] #onetrust-pc-sdk .ot-host-item>button:focus,
+[data-whatinput=keyboard] #onetrust-pc-sdk .ot-ven-item>button:focus,
+[data-whatinput=keyboard] #onetrust-consent-sdk input:not(.checkbox):focus {
+    border-radius: var(--border-radius-s);
+    box-shadow: 0 0 0 var(--border-width) #fff, 0 0 0 var(--border-width-m) var(--accessibility-focus-color);
+    opacity: 1
+}
+
+@media(min-width:600px) {
+    #onetrust-banner-sdk #onetrust-button-group {
+        display: flex
+    }
+    #onetrust-banner-sdk.otFloatingFlat .ot-sdk-row #onetrust-button-group {
+        display: block
+    }
+    #onetrust-button-group .banner-actions-container {
+        margin-left: 16px;
+        order: 1
+    }
+    #onetrust-banner-sdk #onetrust-button-group #onetrust-pc-btn-handler {
+        order: 0
+    }
+}
+
+#onetrust-banner-sdk #onetrust-button-group #onetrust-pc-btn-handler {
+    background-color: var(--primary-white);
+    color: var(--primary-action-bright)
+}
+
+#onetrust-pc-sdk #ot-pc-content {
+    top: 0;
+    bottom: 80px
+}
+
+#onetrust-pc-sdk .ot-pc-footer .ot-btn-container {
+    margin-top: 8px;
+    text-align: center
+}
+
+#onetrust-pc-sdk .ot-pc-footer {
+    border-top: 0
+}
+
+.ot-pc-header,
+.ot-pc-footer .ot-pc-footer-logo {
+    display: none
+}
+
+#ot-pc-content .ot-cat-grp,
+#ot-pc-content .ot-cat-item,
+#ot-pc-content .ot-acc-hdr,
+#ot-pc-content .ot-plus-minus,
+#ot-pc-content .ot-cat-header,
+#ot-pc-content .ot-category-desc,
+#ot-pc-content .ot-switch-nob,
+#onetrust-pc-sdk .ot-host-item * {
+    text-align: left
+}
+
+#ot-pc-content .ot-accordion-layout.ot-cat-item {
+    background-color: var(--primary-white)
+}
+
+#onetrust-pc-sdk .ot-tgl input+.ot-switch .ot-switch-nob {
+    border: 0;
+    height: 24px;
+    border-radius: 16px;
+    background-color: var(--grey-tone-3)
+}
+
+#onetrust-pc-sdk .ot-accordion-layout h4~.ot-tgl,
+#onetrust-pc-sdk .ot-accordion-layout h4~.ot-always-active {
+    margin-top: 3px
+}
+
+#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob {
+    border: 0;
+    height: 24px;
+    border-radius: 16px;
+    background-color: var(--primary-action-bright)
+}
+
+#onetrust-pc-sdk .ot-tgl input+.ot-switch .ot-switch-nob:before,
+#onetrust-pc-sdk .ot-tgl input:checked+.ot-switch .ot-switch-nob:before {
+    background-color: var(--primary-white);
+    border-color: var(--primary-white);
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    left: 3px
+}
+
+#onetrust-pc-sdk .ot-host-opt li>div div {
+    font-size: 12px;
+    line-height: 16px
+}
+
+#onetrust-pc-sdk ul li {
+    padding-top: 10px
+}
+
+#onetrust-pc-sdk .ot-host-name {
+    padding-top: 6px
+}
+
+#onetrust-pc-sdk .ot-host-item>button:focus,
+#onetrust-pc-sdk .ot-ven-item>button:focus {
+    border: 0
+}
+
+#onetrust-consent-sdk input {
+    text-align: left
+}
+
+#onetrust-banner-sdk input[type="email"]:focus,
+#onetrust-banner-sdk input[type="number"]:focus,
+#onetrust-banner-sdk input[type="search"]:focus,
+#onetrust-banner-sdk input[type="text"]:focus,
+#onetrust-banner-sdk input[type="tel"]:focus,
+#onetrust-banner-sdk input[type="url"]:focus,
+#onetrust-banner-sdk input[type="password"]:focus,
+#onetrust-banner-sdk textarea:focus,
+#onetrust-banner-sdk select:focus,
+#onetrust-pc-sdk input[type="email"]:focus,
+#onetrust-pc-sdk input[type="number"]:focus,
+#onetrust-pc-sdk input[type="search"]:focus,
+#onetrust-pc-sdk input[type="text"]:focus,
+#onetrust-pc-sdk input[type="tel"]:focus,
+#onetrust-pc-sdk input[type="url"]:focus,
+#onetrust-pc-sdk input[type="password"]:focus,
+#onetrust-pc-sdk textarea:focus,
+#onetrust-pc-sdk select:focus,
+#ot-sdk-cookie-policy input[type="email"]:focus,
+#ot-sdk-cookie-policy input[type="number"]:focus,
+#ot-sdk-cookie-policy input[type="search"]:focus,
+#ot-sdk-cookie-policy input[type="text"]:focus,
+#ot-sdk-cookie-policy input[type="tel"]:focus,
+#ot-sdk-cookie-policy input[type="url"]:focus,
+#ot-sdk-cookie-policy input[type="password"]:focus,
+#ot-sdk-cookie-policy textarea:focus,
+#ot-sdk-cookie-policy select:focus,
+#onetrust-pc-sdk .ot-chkbox label::before {
+    border: 1px solid var(--grey-tone-7)
+}
+
+#onetrust-pc-sdk #filter-btn-handler:hover {
+    background-color: var(--primary-action-darker);
+    opacity: initial
+}
+
+#onetrust-pc-sdk .ot-chkbox {
+    width: 100%;
+    text-align: left
+}
+
+#onetrust-pc-sdk .ot-chkbox input[type=checkbox]:focus+label::before {
+    outline-width: 0
+}
+
+#onetrust-pc-sdk .ot-chkbox input:checked~label::before {
+    background-color: var(--primary-action-bright);
+    border-color: var(--primary-action-bright)
+}
+
+#onetrust-pc-sdk .ot-fltr-opts {
+    padding-top: 8px
+}
+
+[data-whatinput=keyboard] #onetrust-consent-sdk #onetrust-banner-sdk a[href]:focus,
+[data-whatinput=keyboard] #onetrust-consent-sdk #onetrust-banner-sdk .ot-link-btn:focus,
+[data-whatinput=keyboard] #onetrust-consent-sdk #onetrust-pc-sdk .privacy-notice-link:focus,
+[data-whatinput=keyboard] #onetrust-consent-sdk #onetrust-pc-sdk .ot-accordion-layout.ot-cat-item button:focus,
+[data-whatinput=keyboard] #onetrust-pc-sdk a:focus,
+[data-whatinput=keyboard] #onetrust-pc-sdk #onetrust-pc-sdk button.ot-host-box:focus,
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-accept-btn-handler:focus,
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-reject-all-handler:focus,
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-pc-btn-handler:focus,
+[data-whatinput=keyboard] #onetrust-pc-sdk #accept-recommended-btn-handler:focus,
+[data-whatinput=keyboard] #onetrust-consent-sdk #onetrust-pc-sdk button:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn):focus,
+[data-whatinput=keyboard] #onetrust-consent-sdk #onetrust-pc-sdk .ot-leg-btn-container .ot-active-leg-btn:focus,
+[data-whatinput=keyboard] #onetrust-consent-sdk #onetrust-pc-sdk #ot-host-lst button:focus {
+    outline: 0;
+    opacity: 1;
+    border-radius: var(--border-radius-s);
+    box-shadow: 0 0 0 var(--border-width) #fff, 0 0 0 var(--border-width-m) var(--accessibility-focus-color)
+}
+
+[data-whatinput=keyboard] #onetrust-pc-sdk .ot-tgl input:focus+.ot-switch,
+[data-whatinput=keyboard] #onetrust-pc-sdk #ot-pc-hdr #vendor-search-handler:focus {
+    outline: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 0 var(--border-width) #fff, 0 0 0 var(--border-width-m) var(--accessibility-focus-color)
+}
+
+[data-whatinput=keyboard] #onetrust-pc-sdk #filter-btn-handler:focus {
+    outline: 0;
+    border-radius: 50%;
+    box-shadow: 0 0 0 var(--border-width) #fff, 0 0 0 var(--border-width-m) var(--accessibility-focus-color)
+}
+
+[data-whatinput=keyboard] #ot-fltr-cnt .ot-chkbox input:focus~label:before {
+    border-radius: var(--border-radius-s);
+    box-shadow: 0 0 0 var(--border-width) #fff, 0 0 0 var(--border-width-m) var(--accessibility-focus-color)
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk button#filter-btn-handler {
+    background-color: var(--primary-action-bright);
+    border: 0;
+    border-radius: 50%
+}
+
+#ot-fltr-modal #ot-fltr-cnt {
+    width: 420px;
+    left: 120px
+}
+
+#ot-fltr-cnt #clear-filters-handler {
+    border: 0;
+    margin-top: 30px
+}
+
+#ot-fltr-cnt #clear-filters-handler:focus,
+#onetrust-banner-sdk .ot-sdk-button:focus,
+#onetrust-banner-sdk :not(.ot-leg-btn-container)>button:focus,
+#onetrust-banner-sdk input[type="submit"]:focus,
+#onetrust-banner-sdk input[type="reset"]:focus,
+#onetrust-banner-sdk input[type="button"]:focus,
+#onetrust-pc-sdk .ot-sdk-button:focus,
+#onetrust-pc-sdk :not(.ot-leg-btn-container)>button:focus,
+#onetrust-pc-sdk input[type="submit"]:focus,
+#onetrust-pc-sdk input[type="reset"]:focus,
+#onetrust-pc-sdk input[type="button"]:focus,
+#ot-sdk-cookie-policy .ot-sdk-button:focus,
+#ot-sdk-cookie-policy :not(.ot-leg-btn-container)>button:focus,
+#ot-sdk-cookie-policy input[type="submit"]:focus,
+#ot-sdk-cookie-policy input[type="reset"]:focus,
+#ot-sdk-cookie-policy input[type="button"]:focus {
+    opacity: 1;
+    outline: 0
+}
+
+[data-whatinput=keyboard] #ot-fltr-cnt #clear-filters-handler:focus,
+[data-whatinput=keyboard] #ot-pc-hdr .ot-link-btn.back-btn-handler:focus,
+[data-whatinput=keyboard] #onetrust-banner-sdk #onetrust-close-btn-container .onetrust-close-btn-handler:focus {
+    border-radius: var(--border-radius-s);
+    box-shadow: 0 0 0 var(--border-width) #fff, 0 0 0 var(--border-width-m) var(--accessibility-focus-color)
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-fltr-btns {
+    margin-top: 36px
+}
+
+#onetrust-pc-sdk button#filter-apply-handler:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn) {
+    margin-right: 16px
+}
+
+#onetrust-pc-sdk button#filter-cancel-handler:not(#clear-filters-handler):not(.ot-close-icon):not(#filter-btn-handler):not(.ot-remove-objection-handler):not(.ot-obj-leg-btn-handler):not([aria-expanded]):not(.ot-link-btn) {
+    background: white;
+    color: var(--primary-action-bright)
+}
+
+.onetrust-button-group {
+    display: flex
+}
+
+.banner-actions-container,
+#onetrust-pc-btn-handler {
+    flex: 1
+}
+
+#onetrust-pc-sdk .ot-cat-header,
+#onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpdesc,
+#onetrust-pc-sdk .ot-cat-grp .ot-always-active,
+#onetrust-pc-sdk #ot-category-title,
+#onetrust-pc-sdk .category-vendors-list-handler,
+#onetrust-pc-sdk .category-vendors-list-handler+a,
+#onetrust-pc-sdk .category-host-list-handler,
+#onetrust-pc-sdk ul.ot-subgrps li p,
+#onetrust-pc-sdk ul.ot-subgrps li h5,
+#onetrust-banner-sdk .ot-sdk-button,
+#onetrust-banner-sdk button,
+#onetrust-banner-sdk input[type="submit"],
+#onetrust-banner-sdk input[type="reset"],
+#onetrust-banner-sdk input[type="button"],
+#onetrust-pc-sdk .ot-sdk-button,
+#onetrust-pc-sdk button,
+#onetrust-pc-sdk input[type="submit"],
+#onetrust-pc-sdk input[type="reset"],
+#onetrust-pc-sdk input[type="button"],
+#ot-sdk-cookie-policy .ot-sdk-button,
+#ot-sdk-cookie-policy button,
+#ot-sdk-cookie-policy input[type="submit"],
+#ot-sdk-cookie-policy input[type="reset"],
+#ot-sdk-cookie-policy input[type="button"],
+#onetrust-pc-sdk .ot-host-expand {
+    font-size: initial;
+    line-height: inital
+}
+
+#onetrust-pc-sdk li.ot-subgrp>h5,
+#onetrust-pc-sdk .ot-cat-header {
+    width: initial
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk p {
+    text-align: initial
+}
+
+#onetrust-pc-sdk li.ot-subgrp {
+    margin-left: initial
+}
+
+#onetrust-consent-sdk #onetrust-pc-sdk .ot-accordion-layout button {
+    color: var(--primary-action-dark)
+}
+
+#onetrust-banner-sdk .banner-actions-container #onetrust-reject-all-handler+#onetrust-accept-btn-handler {
+    margin-left: 16px
+}
+
+@media print {
+    #ot-sdk-btn-floating {
+        display: none
+    }
+}
+
+@media(max-width:704px) {
+    #onetrust-banner-sdk .banner-actions-container #onetrust-reject-all-handler,
+    #onetrust-banner-sdk .banner-actions-container #onetrust-accept-btn-handler {
+        padding: 10px 16px
+    }
+}
+
+#onetrust-banner-sdk.otFloatingFlat {
+    padding-top: 0
+}
+
+#ot-sdk-btn-floating.ot-floating-button {
+    bottom: 64px
+}
+
+#ot-sdk-btn-floating.ot-floating-button::after {
+    font-size: 12px
+}
+
+#ot-sdk-btn-floating.ot-floating-button .ot-floating-button__close {
+    padding-top: 4px
+}
+
+.ot-floating-button__front {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyBpZD0iRWJlbmVfMSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTEwLjAzMiwxNi4xNzRjLS4xMjgsMC0uMjU2LS4wNDktLjM1NC0uMTQ2bC0yLjUtMi41Yy0uMTk1LS4xOTUtLjE5NS0uNTEyLDAtLjcwN3MuNTEyLS4xOTUsLjcwNywwbDIuMTQ2LDIuMTQ2LDcuMTQ2LTcuMTQ2Yy4xOTUtLjE5NSwuNTEyLS4xOTUsLjcwNywwcy4xOTUsLjUxMiwwLC43MDdsLTcuNSw3LjVjLS4wOTgsLjA5OC0uMjI2LC4xNDYtLjM1NCwuMTQ2Wk0yMCw0Ljk4NmMtMy45MzQtLjIwNi02Ljk3My0yLjc4OC03Ljk5OC0zLjc3NS0xLjAyNiwuOTg3LTQuMDY5LDMuNTY5LTguMDAyLDMuNzc1djYuNDY2YzAsNS40MzMsNi41NjIsMTAuNDEyLDguMDAyLDExLjQzOCwxLjQzOC0xLjAyNiw3Ljk5OC02LjAwNSw3Ljk5OC0xMS40MzhWNC45ODZabTEsNi40NjZjMCw2LjYwOS04LjM2NiwxMi4yMjgtOC43MjIsMTIuNDY0LS4xNjcsLjExMy0uMzg1LC4xMTMtLjU1MiwwLS4zNTctLjIzNS04LjcyNi01Ljg1NS04LjcyNi0xMi40NjRWNC40OTljMC0uMjc2LC4yMjQtLjUsLjUtLjVDOC4wNzEsMy45OTksMTEuNTk4LC4yMDEsMTEuNjMzLC4xNjJjLjAxLS4wMSwuMDItLjAyMSwuMDMtLjAzLC4yMDQtLjE4NywuNTIxLS4xNzQsLjcwOCwuMDMsLjAzNSwuMDM5LDMuNTU3LDMuODM3LDguMTI5LDMuODM3LC4yNzYsMCwuNSwuMjI0LC41LC41djYuOTUzWiIgc3R5bGU9ImZpbGw6IHJnYigyNTUsIDI1NSwgMjU1KTsiLz4KPC9zdmc+');
+    border: inset 8px transparent
+}
+
+#ot-sdk-btn-floating .ot-floating-button__front.custom-persistent-icon,
+#ot-sdk-btn-floating .ot-floating-button__back.custom-persistent-icon {
+    border-radius: 8px;
+    background-color: var(--primary-action-bright)
+}
+
+#ot-sdk-btn-floating .ot-floating-button__front,
+#ot-sdk-btn-floating .ot-floating-button__back {
+    box-shadow: 0 8px 24px 0 rgba(65, 65, 65, 0.50)
+}
+
+@media screen and (max-width:703px) {
+    #ot-sdk-btn-floating.ot-floating-button {
+        bottom: 16px
+    }
+}
+
+@keyframes otFloatingBtnIntro {
+    0 {
+        opacity: 0;
+        left: -75px
+    }
+    100% {
+        opacity: 1;
+        left: 16px
+    }
+}

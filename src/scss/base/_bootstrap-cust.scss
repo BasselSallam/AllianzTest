@@ -1,0 +1,30 @@
+@use "./variables" as v;
+
+$headings-font-family: "Allianz Neo", sans-serif;
+$headings-font-weight: 600;
+
+$font-family-base: "Allianz Neo", sans-serif;
+// $primary: v.$brand-primary;
+// $border-radius: 0;
+
+$btn-font-family: "Allianz Neo", sans-serif;
+// $btn-font-weight: 600;
+$grid-gutter-width: 1.5rem;
+// $font-size-base: 1.6rem;
+// $headings-margin-bottom: 1.6rem;
+// $paragraph-margin-bottom: 1.6rem;
+// $body-color: #dbdbdb;
+// $headings-color: white;
+$font-weight-base: 300;
+$line-height-base: 1.75;
+$font-size-base: 1.125rem;
+
+// $container-padding-x: 48px;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1040px,
+  xxl: 1290px,
+);
